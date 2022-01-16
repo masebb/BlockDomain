@@ -1,0 +1,7 @@
+easy-snsblocker:
+  image: easy-snsblocker
+  ports:
+    - "53:53/udp"
+  tty: yes
+  #自動起動させたい場合はalwaysに変更します
+  #restart: no
