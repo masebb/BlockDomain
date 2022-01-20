@@ -5,7 +5,8 @@
 ~ $ git clone https://github.com/masebb/BlockDomain.git
 ~ $ cd BlockDomain/
 #お好みのエディタでblockdomains.confを編集します(カンマ区切りでドメイン名を記述)
-~ # docker-compose up -d
+~ $ sudo docker build -t easy-snsblocker ./
+~ $ sudo docker-compose up -d
 ```
 最後にブロックさせたい端末のDNS設定で優先DNSサーバーとしてこのコンテナが立ち上がってるパソコンのIPアドレスを設定する
 ## 問題点
